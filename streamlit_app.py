@@ -76,7 +76,7 @@ def data_frame_demo():
     st.title("Image Display App")
 
     # Upload an image
-    uploaded_file = "/Users/silvia/Desktop/Hackathon/streamlit/IMG_2366.JPG"
+    uploaded_file = "IMG_2366.JPG"
 
     if uploaded_file is not None:
         # Open the uploaded image

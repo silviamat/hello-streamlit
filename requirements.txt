@@ -1,3 +1,7 @@
-altair
+matplotlin
 pandas
 streamlit
+numpy
+folium
+streamlit_folium
+pillow

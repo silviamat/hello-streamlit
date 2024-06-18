@@ -73,7 +73,7 @@ def data_frame_demo():
     from PIL import Image
 
     # Title of the app
-    st.title("Image Display App")
+    st.title("Nosotras que somos todo y encima monisimas")
 
     # Upload an image
     uploaded_file = "IMG_2366.JPG"
@@ -83,7 +83,7 @@ def data_frame_demo():
         image = Image.open(uploaded_file)
 
         # Display the image
-        st.image(image, caption='Uploaded Image.', use_column_width=True)
+        st.image(image, caption='Besitoooos', use_column_width=True)
 
 
 page_names_to_funcs = {

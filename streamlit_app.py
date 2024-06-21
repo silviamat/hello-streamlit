@@ -22,9 +22,9 @@ def mapping_demo():
     import pandas as pd
 
     data = pd.DataFrame({
-        'lon': [-3.7, 2, -6, -7, -3, -122, -118, -105],
-        'lat': [40.4, 48, 42, 36.8, 36.9, 37, 34, 40],
-        'name': ['Madrid', 'Paris', 'Leon', 'Huelva', 'Torrenueva', 'San Francisco', 'Los Angeles', 'Boulder'],
+        'lon': [-3.7, 2, -6, -7, -3, -122, -118, -105,14],
+        'lat': [40.4, 48, 42, 36.8, 36.9, 37, 34, 40,36],
+        'name': ['Madrid', 'Paris', 'Leon', 'Huelva', 'Torrenueva', 'San Francisco', 'Los Angeles', 'Boulder', 'Malta'],
     }, dtype=str)
 
     st.title("Todos los sitios donde hemos estado juntas 🫶")
